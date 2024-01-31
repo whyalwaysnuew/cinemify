@@ -10,10 +10,10 @@ module.exports = {
     ],
 
     theme: {
-        fontFamily: {
-            poppins: 'Poppins, sans-serif'
-        },
         extend: {
+            fontFamily: {
+                poppins: 'Poppins, sans-serif'
+            },
             colors: {
                 "alerange": '#FB6908',
                 "gray-1": '#B4B4B4',

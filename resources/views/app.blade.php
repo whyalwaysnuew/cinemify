@@ -14,8 +14,12 @@
 
         <!-- Scripts -->
         @routes
-        @viteReactRefresh
-        @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
+        {{-- @viteReactRefresh --}}
+        {{-- @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"]) --}}
+
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <script src="{{ mix('js/app.js') }}" defer></script>
+
         @inertiaHead
     </head>
     <body class="font-poppins">
